@@ -1,0 +1,31 @@
+﻿@page "/"
+
+<h3>Enter Your Appointment Details</h3>
+
+<div class="appointment-form">
+    <label>Email:</label>
+    <input @bind="UserEmail" placeholder="Enter your email address" type="email" />
+
+    <label>Appointment Date:</label>
+    <input @bind="AppointmentDate" type="date" />
+
+    <label>Appointment Time:</label>
+    <input @bind="AppointmentTime" type="time" />
+
+    <button @onclick="SubmitAppointment">Submit</button>
+</div>
+
+@if (!string.IsNullOrEmpty(Message))
+{
+    <p>@Message</p>
+}
+
+<style>
+    .appointment-form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+</style>

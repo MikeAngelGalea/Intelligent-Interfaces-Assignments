@@ -1,0 +1,34 @@
+﻿@page "/reminder"
+
+<h3>Set Medicine Reminder</h3>
+
+<div class="reminder-form">
+    <label for="medicineName">Medicine Name:</label>
+    <input id="medicineName" @bind="MedicineName" placeholder="Enter medicine name" />
+
+    <label for="reminderDate">Reminder Date:</label>
+    <input id="reminderDate" @bind="ReminderDate" type="date" />
+
+    <label for="reminderTime">Reminder Time:</label>
+    <input id="reminderTime" @bind="ReminderTime" type="time" />
+
+    <label for="email">Email:</label>
+    <input id="email" @bind="UserEmail" placeholder="Enter your email" type="email" />
+
+    <button @onclick="SetReminder">Set Reminder</button>
+</div>
+
+@if (!string.IsNullOrEmpty(Message))
+{
+    <p>@Message</p>
+}
+
+<style>
+    .reminder-form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+</style>

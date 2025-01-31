@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ElderlyApp": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": false,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "GMAIL_APP_PASSWORD": "fcsk buzh sotz fwaa" // Replace with your actual app password
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+﻿@page "/appointments"
+@using Google.Apis.Calendar.v3.Data
+
+<h3>Upcoming Appointments</h3>
+
+@if (Appointments == null)
+{
+    <p>Loading appointments...</p>
+}
+else if (Appointments.Count == 0)
+{
+    <p>No upcoming appointments found.</p>
+}
+else
+{
+    <ul>
+        @foreach (var appointment in Appointments)
+        {
+            <li>
+                <strong>@appointment.Summary</strong><br />
+                <span>Start: @DateTime.Parse(appointment.Start.DateTimeRaw)</span><br />
+                <span>End: @DateTime.Parse(appointment.End.DateTimeRaw)</span><br />
+            </li>
+        }
+    </ul>
+}
+
+@code {
+    private List<Event> Appointments = new List<Event>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var calendarService = new GoogleCalendarService();
+        Appointments = await calendarService.GetUpcomingEventsAsync();
+    }
+}

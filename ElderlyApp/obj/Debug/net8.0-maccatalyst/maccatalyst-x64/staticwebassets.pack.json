@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\mikeg\\OneDrive\\Documents\\Intelligent Interfaces 2\\ElderlyApp\\ElderlyApp\\obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\scopedcss\\bundle\\ElderlyApp.styles.css",
+      "PackagePath": "staticwebassets\\ElderlyApp.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\mikeg\\OneDrive\\Documents\\Intelligent Interfaces 2\\ElderlyApp\\ElderlyApp\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\mikeg\\OneDrive\\Documents\\Intelligent Interfaces 2\\ElderlyApp\\ElderlyApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mikeg\\OneDrive\\Documents\\Intelligent Interfaces 2\\ElderlyApp\\ElderlyApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mikeg\\OneDrive\\Documents\\Intelligent Interfaces 2\\ElderlyApp\\ElderlyApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\mikeg\\OneDrive\\Documents\\Intelligent Interfaces 2\\ElderlyApp\\ElderlyApp\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\staticwebassets\\msbuild.ElderlyApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\staticwebassets\\msbuild.build.ElderlyApp.props",
+      "PackagePath": "build\\ElderlyApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\staticwebassets\\msbuild.buildMultiTargeting.ElderlyApp.props",
+      "PackagePath": "buildMultiTargeting\\ElderlyApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-maccatalyst\\maccatalyst-x64\\staticwebassets\\msbuild.buildTransitive.ElderlyApp.props",
+      "PackagePath": "buildTransitive\\ElderlyApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
